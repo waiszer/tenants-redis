@@ -11,13 +11,13 @@
 最方便的安装方式就是使用Composer ( https://getcomposer.org/ )
 
 ```
-composer require h-admin/tenants-redis
+composer require waiszer/tenants-redis
 ```
 
 ## 使用
 ```
 <?php
-use HAdmin\TenantsRedis\Redis;
+use Waiszer\TenantsRedis\Redis;
 
 class Demo {
 
