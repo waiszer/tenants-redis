@@ -1,0 +1,21 @@
+{
+    "name": "waiszer/tenants-redis",
+    "description": "适用于PHP的多租户Redis库",
+    "type": "library",
+    "license": "LGPL-2.1-or-later",
+    "autoload": {
+        "psr-4": {
+            "Waiszer\\TenantsRedis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "waiszer",
+            "email": "waiszer@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "predis/predis": "^1.1"
+    }
+}
